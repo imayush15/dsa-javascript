@@ -12,7 +12,7 @@
 function twoSumActual(nums, target) {
   const sumMap = new Map();
 
-  for (let i = 0; i < nums.lengt; i++) {
+  for (let i = 0; i < nums.length; i++) {
     const curr = nums[i];
     const difference = target - curr;
 
@@ -24,4 +24,4 @@ function twoSumActual(nums, target) {
 // Time Complexity - O(n)
 // Space Complexity - O(n)
 
-// ! NOTE: If the array is shorted, we use two pointer method. We keep one pointer at the left and one pointer at the right.
+// ! NOTE: If the array is sorted, we use two pointer method. We keep one pointer at the left and one pointer at the right.
