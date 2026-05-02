@@ -1,25 +1,31 @@
-# 📓 JavaScript — Study Notes
+# 📓 JavaScript Learning Repository
 
-> A personal, ever-growing collection of JavaScript notes, code snippets, and gotchas — written as I learn.
+> A personal collection of JavaScript notes, coding exercises, and system design study material.
 
----
+## Structure
 
-## What's inside
+| Folder | Purpose |
+| --- | --- |
+| [`JS/`](JS/) | JavaScript theory notes, small code exercises, and gotchas |
+| [`DSA/`](DSA/) | Data structures and algorithms practice problems in JavaScript |
+| [`System Design/`](System%20Design/) | System design study notes |
+| [`assets/`](assets/) | Images and reference assets used in notes |
 
-| Folder               | Purpose                                                        |
-| -------------------- | -------------------------------------------------------------- |
-| [`notes/`](notes/)   | Core concept breakdowns — how JS actually works under the hood |
-| [`code/`](code/)     | Practical implementations and mini-experiments                 |
-| [`gotcha/`](gotcha/) | Surprising edge cases and tricky behavior worth remembering    |
+## Inside `JS/`
 
----
+| Folder | Purpose |
+| --- | --- |
+| [`JS/notes/`](JS/notes/) | Core JavaScript concepts such as execution context, scope, closures, and `this` |
+| [`JS/code/`](JS/code/) | Practice snippets for methods and function behavior like `map`, `filter`, `reduce`, and `bind` |
+| [`JS/gotcha/`](JS/gotcha/) | Tricky edge cases and behavior worth remembering |
 
-## Philosophy
+## Focus
 
-This repo follows one rule: **write it down when it clicks.**
+This repository is organized as a study workspace:
 
-Notes are kept short and direct. No fluff, no copy-paste from docs — just what's needed to understand something deeply and recall it fast.
+- concept notes for revision
+- small JavaScript experiments
+- DSA problem solving
+- system design references
 
----
-
-_Updated continuously as I explore more of JavaScript._
+_Updated as the structure and notes evolve._
