@@ -29,6 +29,7 @@ var moveZeroes = function (nums) {
 
   let write = 0;
 
+  // Move non-zero elements to the front of the array
   for (let read = 0; read < nums.length; read++) {
     if (nums[read] !== 0) {
       nums[write] = nums[read];
