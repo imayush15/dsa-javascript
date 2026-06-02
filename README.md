@@ -1,31 +1,54 @@
-# 📓 JavaScript Learning Repository
+# JavaScript DSA Practice Repository
 
-> A personal collection of JavaScript notes, coding exercises, and system design study material.
+This repository is a personal JavaScript practice workspace focused on data structures, algorithms, and problem-solving patterns.
 
-## Structure
+## Repository Structure
 
-| Folder | Purpose |
-| --- | --- |
-| [`JS/`](JS/) | JavaScript theory notes, small code exercises, and gotchas |
-| [`DSA/`](DSA/) | Data structures and algorithms practice problems in JavaScript |
-| [`System Design/`](System%20Design/) | System design study notes |
-| [`assets/`](assets/) | Images and reference assets used in notes |
+| Folder | Topic | Notes |
+| --- | --- | --- |
+| [`1_Arrays + HashMap/`](1_Arrays%20+%20HashMap/) | Arrays and hashing | Frequency counting, anagrams, top-k, product array, consecutive sequence |
+| [`2_Two Pointers/`](2_Two%20Pointers/) | Two pointers | Palindrome checks, sorted array problems, merge patterns, 3Sum |
+| [`3_Sliding Window/`](3_Sliding%20Window/) | Sliding window | Stock, substrings, permutation checks, fruit basket |
+| [`4_Stack/`](4_Stack/) | Stack | Parentheses, temperatures, next greater element, reverse polish notation |
+| [`5_Recursion/`](5_Recursion/) | Recursion and backtracking | Power, reverse array, palindrome, subsequences, subsets |
 
-## Inside `JS/`
+## File Naming Pattern
 
-| Folder | Purpose |
-| --- | --- |
-| [`JS/notes/`](JS/notes/) | Core JavaScript concepts such as execution context, scope, closures, and `this` |
-| [`JS/code/`](JS/code/) | Practice snippets for methods and function behavior like `map`, `filter`, `reduce`, and `bind` |
-| [`JS/gotcha/`](JS/gotcha/) | Tricky edge cases and behavior worth remembering |
+Each file follows a numbered format:
 
-## Focus
+`<problem-number>_<problem-name>.js`
 
-This repository is organized as a study workspace:
+Examples:
 
-- concept notes for revision
-- small JavaScript experiments
-- DSA problem solving
-- system design references
+- `1_Count_Frequency.js`
+- `22_Fruits_Into_Basket.js`
+- `32_Find_All_Subsets.js`
 
-_Updated as the structure and notes evolve._
+This keeps the problems ordered by topic and makes revision easier.
+
+## What Each Solution Contains
+
+Most files include:
+
+- the problem statement
+- a brute-force or intuitive approach
+- an optimized solution
+- time and space complexity notes
+- inline comments explaining the logic
+
+## How To Use
+
+Browse by pattern if you want targeted revision, or go in numerical order for a structured practice flow.
+
+If you want to run a file locally:
+
+```bash
+node "3_Sliding Window/22_Fruits_Into_Basket.js"
+```
+
+## Focus Areas
+
+- problem-solving in JavaScript
+- pattern-based DSA revision
+- readable implementations with explanations
+- interview-style practice

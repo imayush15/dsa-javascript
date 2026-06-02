@@ -1,1 +1,0 @@
-- window is a global object that is created along with Global Execution Context. At global level, `this === window`
