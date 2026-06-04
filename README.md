@@ -35,6 +35,9 @@ Files follow this format:
 
 That keeps the journey ordered and makes revision easier.
 
+If a file name includes a `*`, it is a reminder that the solution should be revisited regularly.
+It marks the problems I want to keep fresh, refine, and understand more deeply over time.
+
 ## What You Will Find Here
 
 - JavaScript solutions to DSA problems
